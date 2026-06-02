@@ -1,0 +1,32 @@
+NHR-water GitHub Pages Upload Package
+
+用途：
+這是一包整理後的 GitHub Pages 靜態展示版，只保留上傳展示必要檔案。
+不包含 .git、company-panel-prod、backend、docs、mock-data、舊版 zip 或大型字型檔。
+
+重要：
+GitHub Pages 不會自動解壓 ZIP。
+請先解壓縮本 ZIP，然後把解壓後資料夾裡的檔案拖曳上傳到 GitHub repository 根目錄。
+
+建議上傳到：
+https://github.com/obmar36/NHR-water
+
+需上傳檔案：
+- index.html
+- .nojekyll
+- README.md
+- UPLOAD_INSTRUCTIONS.txt
+
+GitHub Pages 設定：
+Settings > Pages > Deploy from a branch > main > /root
+
+預期網址：
+https://obmar36.github.io/NHR-water/
+
+展示口徑：
+AI Energy Analytics Platform interactive prototype for waterworks demonstration.
+
+注意事項：
+- 目前為 front-end prototype / mock data，不是正式上線系統。
+- Mapbox、React、Babel 等資源會從 CDN 載入，需要網路。
+- index.html 內含 Mapbox public access token；正式公開前建議到 Mapbox 後台限制可用網域。
